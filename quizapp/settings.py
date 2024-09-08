@@ -27,7 +27,7 @@ SECRET_KEY = environ.get('SECRET_KEY','django-insecure-((8ig+(f!i%-9xhzcme^_-(+e
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'quizapp-pusw.onrender.com'
+    '127.0.0.1', 'localhost'
 ]
 
 
